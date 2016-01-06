@@ -3,16 +3,6 @@ import urllib, json
 import sys
 import datetime
 
-def signal_handler(signal, frame):
-    sys.exit(0)
-
-def set_exit_handler(func):
-    signal.signal(signal.SIGTERM, func)
-def on_exit(sig, func=None):
-    print "exit handler triggered"
-    sys.exit(1)
-
-
 format = "%H:%M:%S"
 today = datetime.datetime.today()
 s = today.strftime(format)
