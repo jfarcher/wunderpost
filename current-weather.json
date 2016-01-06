@@ -1,0 +1,9 @@
+{
+	"temperature":6.7,
+	"humidity":84.0,
+	"avgWindSpeed":0.7,
+	"gustSpeed":1.7,
+	"rain":0.0,
+	"batteryLow":0,
+	"windDirection":630
+}
